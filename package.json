@@ -1,0 +1,11 @@
+{
+  "name": "yup-error-object",
+  "version": "1.0.0",
+  "description": "Get yup errors in an object format, just like in Formik!",
+  "main": "index.js",
+  "author": "chamatt <matt.vicent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
