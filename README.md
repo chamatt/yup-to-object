@@ -18,6 +18,24 @@ yarn add yup-to-object
 
 ## Usage
 
+### Reference
+
+Just pass the yup validation error to yupToObject function
+
+```javascript
+import yupToObject from "yup-to-object";
+
+schema
+  .validate(..., { abortEarly: false })
+  .then(...)
+  .catch(yupError => {
+    const errorObject = yupToObject(yupError);
+    // Do something with it
+  });
+```
+
+### Complete Example
+
 Import yup and yup-to-object
 
 ```javascript

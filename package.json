@@ -1,5 +1,5 @@
 {
-  "name": "yup-error-object",
+  "name": "yup-to-object",
   "version": "1.0.0",
   "description": "Get yup errors in an object format, just like in Formik!",
   "main": "index.js",
