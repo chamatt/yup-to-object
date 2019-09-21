@@ -57,7 +57,7 @@ Setup some data to validate (this is just an example)
 const testData = {
   email: "invalid@email",
   name: ":(",
-  password: "Qwertyuiop123!@@!#!@",
+  password: "qwerty123",
   confirmPassword: "poiuytrewq"
 };
 ```
